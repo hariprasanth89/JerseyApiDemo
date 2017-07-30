@@ -8,6 +8,8 @@ import java.util.Map;
 
 import com.rest.model.Employee;
 
+
+
 public class EmployeeDAO {
 
 	private static final Map<String, Employee> empMap = new HashMap<String, Employee>();
@@ -17,7 +19,7 @@ public class EmployeeDAO {
 	}
 	private static void initEmps(){
 		
-		 Employee emp1 = new Employee("E01", "Smith", "Clerk");
+			Employee emp1 = new Employee("E01", "Smith", "Clerk");
 	        Employee emp2 = new Employee("E02", "Allen", "Salesman");
 	        Employee emp3 = new Employee("E03", "Jones", "Manager");
 	 
